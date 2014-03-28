@@ -5,15 +5,7 @@ Farny-Simulator
 
 ===============
 
-<<<<<<< HEAD
-Version 1.1.1
-
 Most recent updates:
-=======
-Version 1.1.0
-
-Most recent update:
->>>>>>> FETCH_HEAD
 
     1. Minor bug fixes
 
