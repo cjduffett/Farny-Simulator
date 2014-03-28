@@ -1389,7 +1389,7 @@ end
         save('supporting_files/design_list','numEntries','tlist','fnames')
 
         % delete file from memory
-        fpath = strcat('supporting_files/',fname);
+        fpath = strcat('supporting_files/',fname, '.mat');
         delete(fpath)
         
     end

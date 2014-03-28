@@ -5,7 +5,11 @@ Farny-Simulator
 
 ===============
 
-Version 1.0.0
+Version 1.1.1
+
+Most recent updates:
+
+    1. Minor bug fixes
 
 To use, simply run 'farny_simulator.m' using Matlab. Please ensure that the 'supporting_files' 
 folder is in the same directory.
