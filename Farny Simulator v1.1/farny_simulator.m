@@ -165,6 +165,7 @@ menugui()
     function menu_newFcn(~,~)
 
         delete(h.menu_f)
+        isfirstsave = 1;
         tguimenu()
 
     end
@@ -1009,7 +1010,7 @@ menugui()
                 uctn(i) = Uo / (tLen(i) ^ 3);
                 
             end
-                       
+                                   
             isfailed = false;
             mload = initload;
             
@@ -1282,6 +1283,7 @@ menugui()
 
         % cost analysis        
         cost = 10 * j + sum(tLen);
+       
         
     end
 

@@ -5,9 +5,11 @@ Farny-Simulator
 
 ===============
 
+v.1.1.2
+
 Most recent updates:
 
-    1. Minor bug fixes
+    1. Corrected an issue that made it impossible to save new truss designs
 
 To use, simply run 'farny_simulator.m' using Matlab. Please ensure that the 'supporting_files' 
 folder is in the same directory.
