@@ -943,6 +943,9 @@ menugui()
             testload = str2double(get(h.agui_load,'String'));
 
             analysisGen(testload)
+            
+            % clean up zeros
+            T(T < 0.0001 & T > -0.0001) = 0;
 
             % update gui elements:
 
@@ -1073,6 +1076,9 @@ menugui()
             
             % member forces at max load
             data = cell(nmembers,2);
+            
+            % clean up zeros
+            T(T < 0.0001 & T > -0.0001) = 0;
 
             for i = 1:nmembers
 
